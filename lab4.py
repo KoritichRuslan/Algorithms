@@ -22,7 +22,7 @@ centroids = np.array(centroids)
 
 vor = Voronoi(centroids)
 
-fig, ax = plt.subplots(figsize=(12, 6), dpi=80)
+fig, ax = plt.subplots(figsize=(12, 6.75), dpi=80)
 ax.set_xlim(0, 960)
 ax.set_ylim(0, 540)
 ax.scatter(x_coords, y_coords, c="black", alpha=0.1, s=1)
